@@ -10,6 +10,9 @@ if choice_one == "go to shore" or choice_one == str(1):
     quit()
 elif choice_one == "keep sailing" or choice_one == str(2):
     print("You and your crew continue onwards, risking possible survival for more promising lands.")
+else:
+    print("Your commands fall upon ears that do not listen. You have been mutinied and left behind")
+    quit()
 
 choice_two = input("Two days later, you come across another vessel in open waters. \n Do you: 1. Approach the vessel, or 2. Keep sailing? ").lower()
 if choice_two== "approach the vessel" or choice_two == str(1):
@@ -17,6 +20,9 @@ if choice_two== "approach the vessel" or choice_two == str(1):
     quit()
 elif choice_two == "keep sailing" or choice_two == str(2):
     print("As you sail on by, you notice the ship has a black flag trailing in their wake. Strategic cowardice keeps you alive.")
+else:
+    print("Your commands fall upon ears that do not listen. You have been mutinied and left behind")
+    quit()
 
 choice_three = input("Five more days pass. You and your crew are tired and out of supplies. You spot land, but it looks somewhat familiar. Could it be the same island you passed the first time?\n Do you: 1. make landfall, or 2. continue sailing towards the horizon ").lower()
 if choice_three == "make landfall" or choice_three == str(1):
@@ -24,4 +30,7 @@ if choice_three == "make landfall" or choice_three == str(1):
     quit()
 elif choice_three == "keep sailing towards the horizon" or choice_three == str(2):
     print("You continue onwards towards the horizon, not realizing that you are a figurine being played in a tabletop RPG. To you, the world is flat. You have reached the edge of the table and plummet to the floor.")
+    quit()
+else:
+    print("Your commands fall upon ears that do not listen. You have been mutinied and left behind")
     quit()
